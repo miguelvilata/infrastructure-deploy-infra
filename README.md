@@ -2,7 +2,7 @@
 ### Despliegue infraestructura.
 
 ## INSTRUCCIONES DE USO ##
-Se creó para este ejemplo un bucket s3 con nombre: infraestructura-state. Esta bucket servirá como storage para el estado remoto de terraform.
+Se creó para este ejemplo un bucket s3. Esta bucket servirá como storage para el estado remoto de terraform.
 Se utilizará terraform v-1.0.2
 
 ### 1- CERTIFICATE_MANAGER
@@ -36,7 +36,7 @@ terraform apply
 
 ### 4.1- EC2/Bastion
 
-Desplegamos el Bastion / OpenVPN / Jenkins Service.
+Desplegamos el Bastion.
 
 ```
 terraform init
